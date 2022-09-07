@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <h1>test2</h1>
+        <h1>Hi Baphlew and the rest :) </h1>
     );
 }
 
