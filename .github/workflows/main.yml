@@ -36,7 +36,7 @@ jobs:
     #Run Test
     - name: Run the tests
       run: npm test
-
+    
 
   build:
     needs: tests
@@ -65,6 +65,9 @@ jobs:
       run: npm install
 
     #Build
+    - name: mytest
+      run: npm install --save gh-pages
+    
     - name: Build
       run: npm run build
       
