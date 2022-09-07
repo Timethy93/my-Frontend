@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <h1>Season Checker</h1>
+        <h1>test</h1>
     );
 }
 
